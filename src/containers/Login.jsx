@@ -57,12 +57,12 @@ const Login = (props) => {
               Inicia sesión con Google
           </div>
           <div>
-            <img src={twitterIcon} alt='twitterIcon'/>
+            <img src={twitterIcon} alt='twitterIcon' />
               Inicia sesión con Twitter
           </div>
         </section>
         <p className='login__container--register'>
-          No tienes ninguna cuenta
+          No tienes ninguna cuenta {' '}
           <Link to='register'>
             Regístrate
           </Link>
